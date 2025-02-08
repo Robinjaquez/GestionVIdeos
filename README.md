@@ -1,2 +1,2 @@
 # GestionVIdeos
-Gestión de Videos con JS
+Pagina sencilla en la que controlas el inicio/pausa de varios video mediante el uso de Js.
