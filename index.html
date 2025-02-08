@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player con jQuery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="video-player">
+        <video id="video1" width="320" height="240" controls>
+            <source src="video/video1.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+        <input type="radio" name="video-control" id="radio1" class="video-radio"> Controlar Video 1
+        <button class="toggle-button" data-target="#video1">Mostrar/Ocultar Video 1</button>
+    </div>
+    <div class="video-player">
+        <video id="video2" width="320" height="240" controls>
+            <source src="video/video2.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+        <input type="radio" name="video-control" id="radio2" class="video-radio"> Controlar Video 2
+        <button class="toggle-button" data-target="#video2">Mostrar/Ocultar Video 2</button>
+    </div>
+    <div class="video-player">
+        <video id="video3" width="320" height="240" controls>
+            <source src="video/video3.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+        <input type="radio" name="video-control" id="radio3" class="video-radio"> Controlar Video 3
+        <button class="toggle-button" data-target="#video3">Mostrar/Ocultar Video 3</button>
+    </div>
+
+    
+    <p id="hover-text">Pasa el ratón sobre este texto</p>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
